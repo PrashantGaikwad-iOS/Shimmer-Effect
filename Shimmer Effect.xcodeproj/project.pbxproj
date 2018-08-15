@@ -12,6 +12,8 @@
 		894DEA8C2118170B001CA66F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894DEA8A2118170B001CA66F /* Main.storyboard */; };
 		894DEA8E2118170D001CA66F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894DEA8D2118170D001CA66F /* Assets.xcassets */; };
 		894DEA912118170D001CA66F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894DEA8F2118170D001CA66F /* LaunchScreen.storyboard */; };
+		894DEA9921181736001CA66F /* busy.png in Resources */ = {isa = PBXBuildFile; fileRef = 894DEA9821181736001CA66F /* busy.png */; };
+		894DEA9B21181742001CA66F /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894DEA9A21181742001CA66F /* Shimmer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		894DEA8D2118170D001CA66F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		894DEA902118170D001CA66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		894DEA922118170D001CA66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894DEA9821181736001CA66F /* busy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = busy.png; sourceTree = "<group>"; };
+		894DEA9A21181742001CA66F /* Shimmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		894DEA852118170B001CA66F /* Shimmer Effect */ = {
 			isa = PBXGroup;
 			children = (
+				894DEA9821181736001CA66F /* busy.png */,
 				894DEA862118170B001CA66F /* AppDelegate.swift */,
 				894DEA882118170B001CA66F /* ViewController.swift */,
+				894DEA9A21181742001CA66F /* Shimmer.swift */,
 				894DEA8A2118170B001CA66F /* Main.storyboard */,
 				894DEA8D2118170D001CA66F /* Assets.xcassets */,
 				894DEA8F2118170D001CA66F /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			files = (
 				894DEA912118170D001CA66F /* LaunchScreen.storyboard in Resources */,
 				894DEA8E2118170D001CA66F /* Assets.xcassets in Resources */,
+				894DEA9921181736001CA66F /* busy.png in Resources */,
 				894DEA8C2118170B001CA66F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				894DEA892118170B001CA66F /* ViewController.swift in Sources */,
+				894DEA9B21181742001CA66F /* Shimmer.swift in Sources */,
 				894DEA872118170B001CA66F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "Shimmer Effect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "Shimmer Effect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
